@@ -15,7 +15,7 @@ The spins on each layer are governed by a generalized Heisenberg model with sing
 
 $$ H^l = - \sum_{\langle i,j \rangle \in \textrm{N.N.}}  \left( J_0 \mathbf{M}_ {l,i} \cdot \mathbf{M}_ {l,j}  + K_0 M_{l, i}^z M_{l,j}^z \right) - \sum_{i}\left[ K_1 (M_{i,l}^z )^2 +  \mathbf{B} \cdot \mathbf{M} _{i,l} \right]$$ 
 
-$\mathbf{M}$ is a vector of length $3/2$. Asymmetry between inner and outer layers is introduced as a modified spin length to $3/2 \rightarrow 3/2 + dS$ for the top and bottom layers.
+$\mathbf{M}$ is a vector of length $3/2$. If necessary, the asymmetry between the inner and outer layers can be introduced as a modified spin length to $3/2 \rightarrow 3/2 + dS$ for the top and bottom layers.
 
 Spins in adjacent layers are coupled by the interlayer exchange coupling that is obtained from Figs. 2 and 3 of [Nano Lett. 18, 7658 (2018)](https://pubs.acs.org/doi/10.1021/acs.nanolett.8b03321).
 
@@ -39,7 +39,7 @@ Temperature is also measured in meV, and 1 meV corresponds to 11.604 Kelvin.
 3. $K_0$ = 0.09: exchange anisotropy (meV)
 4. $K_1$ = 0: single-ion anisotropy (meV)
 
-Other parameters can be modified in the source code. Note: fitting_harmonics = 3 is recommended to avoid overfitting for Fig. 3 data. With fitting_harmonics > 3, the fitting results crutially depend on the initial condition for the least square fitting of MINPACK (i.e., scipy curve_fit). 
+Other parameters can be modified in the source code. Note: fitting_harmonics = 3 is recommended to avoid overfitting for Fig. 3 data. With fitting_harmonics > 3, the fitting results critically depend on the initial condition for the least square fitting of MINPACK (i.e., scipy curve_fit). 
 
 ### Energy minimization
 
