@@ -47,6 +47,15 @@ Other parameters can be modified in the source code. Note: fitting_harmonics = 3
 
 The total energy is minimized by the semi-implicit method combined with backtracking line search [see Chap. 3 of Exl, L. (2014). ["Tensor grid methods for micromagnetic simulations"](https://doi.org/10.34726/hss.2014.21425) ]. 
 
+
+### Monte Carlo
+
+The code can also implement Monte Carlo simulations by the Metropolis-Hastings algorithm. See LLG.py for an example of usage.
+
+### Landau–Lifshitz–Gilbert dynamics
+
+Real-time dynamics governed by the Landau–Lifshitz–Gilbert equation can be simulated as well. See LLG.py for an example of usage.
+
 ### Dependencies
 
 - `scipy`
