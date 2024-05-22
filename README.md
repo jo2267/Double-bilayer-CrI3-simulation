@@ -4,7 +4,7 @@
 
 This repository contains a Python implementation of the following paper:
 
-If you use this code in your research, please cite the above paper.
+If you use this code in your research, please cite the above paper and the DOI of this repository.
 
 ![](/figures/design.png)
 
