@@ -36,10 +36,10 @@ Temperature is also measured in meV, and 1 meV corresponds to 11.604 Kelvin.
 ## Simulations
 
 ### Input parameters
-1. $\theta$ = 1.05: tilting angle in degree
-2. $J_0$ = 2.25: inplane exchange coupling (meV)
-3. $K_0$ = 0.09: exchange anisotropy (meV)
-4. $K_1$ = 0: single-ion anisotropy (meV)
+1. $\theta$: tilting angle in degree
+2. $J_0$: inplane exchange coupling (meV)
+3. $K_0$: exchange anisotropy (meV)
+4. $K_1$: single-ion anisotropy (meV)
 
 Other parameters can be modified in the source code. Note: fitting_harmonics = 3 is recommended to avoid overfitting for Fig. 3 data. With fitting_harmonics > 3, the fitting results critically depend on the initial condition for the least square fitting of MINPACK (i.e., scipy curve_fit). 
 
