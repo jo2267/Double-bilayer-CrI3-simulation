@@ -35,6 +35,8 @@ Temperature is also measured in meV, and 1 meV corresponds to 11.604 Kelvin.
 
 ## Simulations
 
+The main code is LLG.py, which demonstrates how to run three types of simulations.
+
 ### Input parameters
 1. $\theta$: tilting angle in degree
 2. $J_0$: inplane exchange coupling (meV)
@@ -50,11 +52,11 @@ The total energy is minimized by the semi-implicit method combined with backtrac
 
 ### Monte Carlo simulations
 
-The code can also implement Monte Carlo simulations by the Metropolis-Hastings algorithm. See LLG.py for an example of usage.
+The code can also implement Monte Carlo simulations by the Metropolis-Hastings algorithm. 
 
 ### Landau–Lifshitz–Gilbert dynamics
 
-Real-time dynamics governed by the Landau–Lifshitz–Gilbert equation can be simulated as well. See LLG.py for an example of usage.
+Real-time dynamics governed by the Landau–Lifshitz–Gilbert equation can be simulated as well.
 
 ### Dependencies
 
