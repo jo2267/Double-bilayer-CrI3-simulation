@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11241392.svg)](https://doi.org/10.5281/zenodo.11241392)
+
 # Double bilayer CrI<sub>3</sub> simulations
 
 This repository contains a Python implementation of the following paper:
