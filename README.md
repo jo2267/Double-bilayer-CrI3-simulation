@@ -4,9 +4,11 @@
 
 This repository contains a Python implementation of the following paper:
 
+Yang, B., Patel, T., Cheng, M. et al. "Macroscopic tunneling probe of Moiré spin textures in twisted CrI3". [Nat Commun 15, 4982 (2024).](https://doi.org/10.1038/s41467-024-49261-6)
+
 If you use this code in your research, please cite the above paper and the DOI of this repository.
 
-![](/figures/design.png)
+
 
 
 ## Hamiltonian
