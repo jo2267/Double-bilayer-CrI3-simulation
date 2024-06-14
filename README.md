@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11241392.svg)](https://doi.org/10.5281/zenodo.11241392)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11241391.svg)](https://doi.org/10.5281/zenodo.11241391)
 
 # Double bilayer CrI<sub>3</sub> simulations
 
